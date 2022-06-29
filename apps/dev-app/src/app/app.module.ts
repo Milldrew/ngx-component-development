@@ -12,10 +12,26 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { PasswordInputComponent } from './components/password-input/password-input.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, SideNavComponent],
-  imports: [BrowserModule, BrowserAnimationsModule, RoutingModule, LayoutModule, MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    SideNavComponent,
+    PasswordInputComponent,
+  ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    RoutingModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
